@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+margin: 0;
+padding: 0;
+outline: none;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+body{
+background: #f2f2f2;
+}
+.colored_section {
+  background-color: #171c24;
+  padding-bottom: 4rem;
+}
+nav{
+background: #171c24;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+height: 120px;
+padding: 0 100px;
+}
+nav .logo{
+color: #fff;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: -1px;
+}
+nav .nav-items{
+display: flex;
+flex: 1;
+padding: 0 0 0 40px;
+}
+nav .nav-items li{
+list-style: none;
+padding: 0 20px;
+}
+nav .nav-items li a{
+color: #fff;
+font-size: 22px;
+font-weight: 500;
+text-decoration: none;
+}
+nav .nav-items li a:hover{
+color: rgb(189, 189, 194);
+}
+nav form{
+display: flex;
+height: 50px;
+padding: 2px;
+background: #1e232b;
+min-width: 20%!important;
+border-radius: 5px;
+border: 2px solid rgba(233, 224, 224, 0.2);
+}
+nav form .search-data{
+width: 100%;
+height: 100%;
+padding: 0 10px;
+color: #fff;
+font-size: 17px;
+border: none;
+font-weight: 500;
+background: none;
+}
+nav form button{
+padding: 0 17px;
+color: #fff;
+font-size: 17px;
+background: #f3f1f1;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+nav form button:hover{
+background: #bdbcbb;
+}
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+width: 50px;
+text-align: center;
+margin: 0 50px;
+font-size: 20px;
+color: #fff;
+cursor: pointer;
+display: none;
+}
+
+nav .menu-icon span,
+nav .cancel-icon,
+nav .search-icon{
+display: none;
+}
+@media (max-width: 1245px) {
+nav{
+  padding: 0 50px;
+}
+}
+@media (max-width: 1140px){
+nav{
+  padding: 0px;
+}
+nav .logo{
+  flex: 2;
+  text-align: center;
+}
+nav .nav-items{
+  position: fixed;
+  z-index: 99;
+  top: 70px;
+  width: 100%;
+  left: -100%;
+  height: 100%;
+  padding: 10px 50px 0 50px;
+  text-align: center;
+  background: #14181f;
+  display: inline-block;
+  transition: left 0.3s ease;
+}
+nav .nav-items.active{
+  left: 0px;
+}
+nav .nav-items li{
+  line-height: 40px;
+  margin: 30px 0;
+}
+nav .nav-items li a{
+  font-size: 20px;
+}
+nav form{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: top 0.3s ease, opacity 0.1s ease;
+}
+nav form.active{
+  top: 95px;
+  opacity: 1;
+  pointer-events: auto;
+}
+nav form:before{
+  position: absolute;
+  content: "";
+  top: -13px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border: 10px solid transparent;
+  border-bottom-color: #1e232b;
+  margin: -20px 0 0;
+}
+nav form:after{
+  position: absolute;
+  content: '';
+  height: 60px;
+  padding: 2px;
+  background: #1e232b;
+  border-radius: 2px;
+  min-width: calc(100% + 20px);
+  z-index: -2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+nav .menu-icon{
+  display: block;
+}
+nav .search-icon,
+nav .menu-icon span{
+  display: block;
+}
+nav .menu-icon span.hide,
+nav .search-icon.hide{
+  display: none;
+}
+nav .cancel-icon.show{
+  display: block;
+}
+}
+.space{
+margin: 10px 0;
+}
+nav .logo.space{
+color: rgb(255, 255, 255);
+padding: 0 5px 0 0;
+}
+@media (max-width: 980px){
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+  margin: 0 20px;
+}
+nav form{
+  right: 30px;
+}
+}
+@media (max-width: 350px){
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+  margin: 0 10px;
+  font-size: 16px;
+}
+}
+
+
+#box1
+{
+  width:18rem;
+height:165px;
+margin: 30px 0 25px 80px;
+border-radius:25px;
+}
+#box2
+{
+  width:18rem;
+height:165px;
+margin: 30px 0 25px 80px;
+border-radius:25px;
+}
+#box3
+{
+  width:18rem;
+height:165px;
+margin: 30px 0 25px 80px;
+border-radius:25px;
+}
+#box4
+{
+  width:18rem;
+height:165px;
+margin: 30px 0 25px 80px;
+border-radius:25px;
+}
+
+#box5
+{
+  width:18rem;
+  height:165px;
+  margin: 30px 0 25px 80px;
+  border-radius:25px;
+}
+
+#btn
+{
+width:100%;
+height:100%;
+border-radius:25px;
+background-color: rgb(255, 255, 255);
+}
+ 
+span {
+  margin-top: 130px;
+  font-weight: bold;
+}
+ 
+#btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#btn:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+#btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+#btn:hover span {
+  padding-right: 25px;
+}
+
+#btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.logo2{
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:30px;
+  }
+  .sub1
+  {
+  flex:1;
+  margin:2px;
+  transition:0.3s;
+  float: left;
+  width:38%;
+  margin-left:0;
+  height:200px;
+  font-size: 16px;
+  font-weight: 600;
+  border-right: rgb(92, 92, 92) 2px solid;
+  padding-right:100px;
+  text-align: right;
+  }
+
+.social-menu ul{
+left:50%;
+width:30%;
+padding-left:40px;
+padding-right:40px;
+display:flex;
+} 
+.social-menu ul li{
+list-style:none;
+margin:0 15px;
+}
+
+
+.fa {
+  padding: 22.5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  color:#000;
+}
+
+
+.fa-twitter {
+  color:#000;
+}
+
+
+.fa-linkedin {
+  color:#000;
+}
+
+.fa-instagram {
+  color: #000;;
+}
+
+.social-menu ul li a{
+position:relative;
+width:60px;
+height:60px;
+display:block;
+border-radius:50%;
+background-color:#fff;
+transition:.6s;
+box-shadow:0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(3) a:hover {
+background-color: #3b5999;
+}
+.social-menu ul li:nth-child(1) a:hover {
+background-color: #55acee;
+}
+.social-menu ul li:nth-child(2) a:hover {
+background-color: #e4405f;
+} 
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #0077B5;
+}
+  .sub2{
+    flex:1;
+  margin:2px;
+  padding:10px;
+  transition:0.3s;
+  margin-left:0;
+      float: right;
+      width:38%;
+      height:200px;
+      font-size: 16px;
+      font-weight: 600;
+      padding-left:120px;
+      border-left: rgb(92, 92, 92) 2px solid;
+  }
+  .bottom-section{
+    padding:5px;
+    max-width:1500px;
+    width:95%;
+    margin:20px auto;
+  }
+  .columns{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    margin:5px 0;
+  }
+  @media screen and (max-width:960px)
+  {
+    .columns .sub1 .social-menu .sub2{
+      margin-bottom:5px;
+      flex-basis:40%;
+    }
+    .columns .sub2{
+      margin:0;
+    }
+    .columns .social-menu{
+      margin-right:0;
+      flex-basis:100%
+    }
+  }
+  @media screen and (max-width:960px)
+  {
+    .columns .sub1 .social-menu .sub2{
+      flex-basis:100%;
+      margin:0 0 5px 0;
+    }
+  }
+
+  h1.maths {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.physics {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.chemistry {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.it {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.mechanics {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.et {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.mp {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  h1.semester-8 {
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  hr.maths {
+    border: 1px solid aliceblue;
+    margin-top: 10px;
+  }
+
+  hr.mechanics {
+    border: 1px solid aliceblue;
+  }
+
+  hr.physics {
+    border: 1px solid aliceblue;
+  }
+
+  hr.chemistry {
+    border: 1px solid aliceblue;
+  }
+
+  hr.it {
+    border: 1px solid aliceblue;
+  }
+
+  hr.mp {
+    border: 1px solid aliceblue;
+  }
+
+  hr.et {
+    border: 1px solid aliceblue;
+  }
+

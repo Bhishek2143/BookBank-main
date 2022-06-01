@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+}
+
+p {
+    font-family: 'Manjari', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding-bottom: 70px;
+}
+
+h1.heading1 {
+    font-family: 'Manjari', sans-serif;
+    font-size: 5rem;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-weight: bold;
+}
+
+h1.heading2 {
+    font-family: 'Manjari', sans-serif;
+    font-size: 4rem;
+    padding-top: 40px;
+}
+
+
+.about {
+    padding: 10px 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: aliceblue;
+}
+
+.our_team {
+    color: aliceblue;
+}
+
+
+.rinku {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 70px 0;
+}
+
+.shubham{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 70px 0;
+}
+
+.bhishek{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 70px 0;
+}
+
+
+h5 {
+padding-bottom: 50px;
+}
