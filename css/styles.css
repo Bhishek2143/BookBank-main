@@ -11,7 +11,6 @@ background: #f2f2f2;
 }
 .colored_section {
   background-color: #171c24;
-  padding-bottom: 4rem;
 }
 nav{
 background: #171c24;
@@ -19,8 +18,9 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
-height: 120px;
+height: 150px;
 padding: 0 100px;
+border-bottom: 1px solid aliceblue;
 }
 nav .logo{
 color: #fff;
@@ -44,7 +44,7 @@ font-weight: 500;
 text-decoration: none;
 }
 nav .nav-items li a:hover{
-color: rgb(189, 189, 194);
+color: rgba(95, 95, 95, 0.378);;
 }
 nav form{
 display: flex;
@@ -209,41 +209,40 @@ nav .search-icon{
 }
 }
 
-
 #box1
 {
-  width:18rem;
+  width:17.5rem;
 height:165px;
-margin: 30px 0 25px 80px;
+margin: 30px 0 25px 20px;
 border-radius:25px;
 }
 #box2
 {
-  width:18rem;
+  width:17.5rem;
 height:165px;
-margin: 30px 0 25px 80px;
+margin: 30px 0 25px 20px;
 border-radius:25px;
 }
 #box3
 {
-  width:18rem;
+  width:17.5rem;
 height:165px;
-margin: 30px 0 25px 80px;
+margin: 30px 0 25px 20px;
 border-radius:25px;
 }
 #box4
 {
-  width:18rem;
+  width:17.5rem;
 height:165px;
-margin: 30px 0 25px 80px;
+margin: 30px 0 25px 20px;
 border-radius:25px;
 }
 
 #box5
 {
-  width:18rem;
+  width:17.5rem;
   height:165px;
-  margin: 30px 0 25px 80px;
+  margin: 30px 0 25px 20px;
   border-radius:25px;
 }
 
@@ -253,11 +252,7 @@ width:100%;
 height:100%;
 border-radius:25px;
 background-color: rgb(255, 255, 255);
-}
- 
-span {
-  margin-top: 130px;
-  font-weight: bold;
+font-weight: bold;
 }
  
 #btn span {
@@ -427,64 +422,63 @@ background-color: #e4405f;
   }
 
   h1.maths {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   h1.physics {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.chemistry {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.it {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.mechanics {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.et {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.mp {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   h1.semester-8 {
-    color: aliceblue;
-    padding-left: 100px;
+    color: #fff;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
   }
 
   hr.maths {
     border: 1px solid aliceblue;
-    margin-top: 10px;
   }
 
   hr.mechanics {
