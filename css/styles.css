@@ -263,7 +263,7 @@ transition: 0.5s;
 }
 
 #btn:hover {
-  background-color: #cefb02;
+  background-color: lightskyblue;
 }
 
 #btn span:after {
@@ -504,4 +504,3 @@ background-color: #e4405f;
   hr.et {
     border: 1px solid aliceblue;
   }
-
