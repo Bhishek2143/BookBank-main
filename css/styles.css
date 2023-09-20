@@ -335,7 +335,7 @@ margin:0 15px;
 }
 
 
-.fa-twitter {
+.fa-github {
   color:#000;
 }
 
@@ -365,7 +365,7 @@ transform: translate(0, -10px);
 background-color: #3b5999;
 }
 .social-menu ul li:nth-child(1) a:hover {
-background-color: #55acee;
+background-color: #171c24;
 }
 .social-menu ul li:nth-child(2) a:hover {
 background-color: #e4405f;
@@ -464,13 +464,6 @@ background-color: #e4405f;
   }
 
   h1.mp {
-    color: #fff;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-  }
-
-  h1.semester-8 {
     color: #fff;
     padding-left: 50px;
     padding-bottom: 10px;
